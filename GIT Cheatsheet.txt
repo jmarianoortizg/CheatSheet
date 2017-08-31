@@ -3,15 +3,23 @@ Page:
   Git la guia sencilla 
     - http://rogerdudler.github.io/git-guide/index.es.html
   
+  Checkout to a branch
+  
+  Clone a branch to local 
+    git clone https://github.com/jmarianoortizg/CheatSheet.git --branch feature_x
+  
   Delete a branch
     git brach -d name_branch
     git push origin :remote_branch
     git push origin
   
-  Merge a branch
-    git checkout test
-    git pull origin master
+  Create branch and merge from master
+    git checkout -b new_branch
     git checkout master
-    git merge test
+    git merge new_branch
+    git checkout new_branch
+    git push --set-upstream origin new_branch
+    
+    
   
 
