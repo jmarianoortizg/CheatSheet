@@ -1,3 +1,0 @@
-Page:
-  Git la guia sencilla 
-    - http://rogerdudler.github.io/git-guide/index.es.html

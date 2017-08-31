@@ -1,0 +1,17 @@
+
+Page:
+  Git la guia sencilla 
+    - http://rogerdudler.github.io/git-guide/index.es.html
+  
+  Delete a branch
+    git brach -d name_branch
+    git push origin :remote_branch
+    git push origin
+  
+  Merge a branch
+    git checkout test
+    git pull origin master
+    git checkout master
+    git merge test
+  
+
