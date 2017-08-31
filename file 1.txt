@@ -1,1 +1,3 @@
-file 1 nuevo estatus
+Page:
+  Git la guia sencilla 
+    - http://rogerdudler.github.io/git-guide/index.es.html
