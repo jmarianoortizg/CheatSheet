@@ -2,8 +2,12 @@
 Page:
   Git la guia sencilla 
     - http://rogerdudler.github.io/git-guide/index.es.html
-  
-  Checkout to a branch
+    
+    Crear uno nuevo:
+    git config --global user.name "grupotherasoft"
+    git config --global user.email "grupothera.software@gmail.com"
+
+    Checkout to a branch
   
   Clone a branch to local 
     git clone https://github.com/jmarianoortizg/CheatSheet.git --branch feature_x
