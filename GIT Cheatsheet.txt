@@ -6,8 +6,14 @@ Page:
     Crear uno nuevo:
     git config --global user.name "grupotherasoft"
     git config --global user.email "grupothera.software@gmail.com"
+    
+    git init
+    git clone /path/to/repository of git
+    git add .
+    git commit -m "Commit message"
+    git push origin master
 
-    Checkout to a branch
+  
   
   Clone a branch to local 
     git clone https://github.com/jmarianoortizg/CheatSheet.git --branch feature_x
