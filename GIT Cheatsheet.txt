@@ -12,8 +12,10 @@ Page:
     git add .
     git commit -m "Commit message"
     git push origin master
-
-  
+    ó
+    git commit -m "first commit"
+    git remote add origin https://github.com/jmarianoortizg/SAITricode.git
+    git push -u origin master
   
   Clone a branch to local 
     git clone https://github.com/jmarianoortizg/CheatSheet.git --branch feature_x
