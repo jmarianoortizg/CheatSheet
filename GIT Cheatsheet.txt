@@ -9,7 +9,7 @@ Page:
     
     git init
     git clone /path/to/repository of git
-    git add .
+    git add --ignore-errors .
     git commit -m "Commit message"
     git push origin master
     ó
